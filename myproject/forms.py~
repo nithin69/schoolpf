@@ -1,0 +1,12 @@
+from django import forms
+from myproject.models import *
+from django.contrib.auth import get_user_model
+from django.contrib.auth.admin import UserAdmin
+from django.contrib import admin
+
+
+class ContactForm(forms.ModelForm):
+    
+    class Meta:
+        model = Contact
+	fields = ['fullname','lastname', 'email','phone', 'subject', 'message']

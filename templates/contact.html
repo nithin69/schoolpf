@@ -1,0 +1,109 @@
+{% extends "base.html" %}
+
+{% block title %} KK Packers and Movers  {% endblock %}
+
+{% block body_block %}
+
+			<div class="bg-image page-title">
+				<div class="container-fluid">
+					<a href="#"><h1>contact us</h1></a>
+					<div class="pull-right">
+						<a href="/"><i class="fa fa-home fa-lg"></i></a> &nbsp;&nbsp;|&nbsp;&nbsp; <a href="/contactus/">Contact Us</a>
+					</div>
+				</div>
+			</div>
+
+<div style="width: 100%"><iframe width="100%" height="450" src="http://www.mapi.ie/create-google-map/map.php?width=100%&amp;height=450&amp;hl=en&amp;q=rcm%20church%2C%20old%20gajuwaka%2Cvisakhapatnam+(KK%20Packers%20and%20Movers)&amp;ie=UTF8&amp;t=&amp;z=15&amp;iwloc=A&amp;output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"><a href="http://www.mapsdirections.info/pl/stworz-mape-google/">mapa google na stronie</a> na <a href="http://www.mapsdirections.info/pl/">Narzędzie Planowania Trasy</a></iframe></div><br />
+
+			<div class="container-fluid block-content">
+				<div class="row main-grid">
+					<div class="col-sm-4">
+						<h4>Head Office</h4>
+						<p>Everyday is a new day for us and we work really hard to
+							satisfy our customers everywhere.</p>
+						<div class="adress-details wow fadeInLeft" data-wow-delay="0.3s">
+							<div>
+								<span><i class="fa fa-location-arrow"></i></span>
+								<div><strong>KK PACKERS & MOVERS</strong><br>D.No 7-11-36,<br>R.C.M Church Left Side<br>BHPV Road, Old Gajuwaka<br>Visakhapatnam-530026(A.P). </div>
+							</div>
+							<div>
+								<span><i class="fa fa-phone"></i></span>
+								<div>Ph : 0891-2516328 , 2549577<br/>Cell : 98481 98358 , 96666 98357</div>
+							</div>
+							<div>
+								<span><i class="fa fa-envelope"></i></span>
+								<div>kkpackersmovers@yahoo.co.in <br/> kkpackersmovers@rediffmail.com</div>
+							</div>
+							<div>
+								<span><i class="fa fa-clock-o"></i></span>
+								<div>24/7 Support</div>
+							</div>
+						</div>
+						<br><br><hr><br>
+						<h4>Branch Office</h4>
+						<div class="adress-details wow fadeInLeft" data-wow-delay="0.3s">
+							<div>
+								<span><i class="fa fa-location-arrow"></i></span>
+								<div><strong>KK PACKERS & MOVERS</strong><br> HYDERABAD - 75.</div>
+							</div>
+							<div>
+								<span><i class="fa fa-phone"></i></span>
+								<div>Cell : 97049 67786</div>
+							</div>
+							<div>
+								<span><i class="fa fa-envelope"></i></span>
+								<div>kkpackersmovers@yahoo.co.in <br/> kkpackersmovers@rediffmail.com</div>
+							</div>
+							<div>
+								<span><i class="fa fa-clock-o"></i></span>
+								<div>24/7 Support</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-8 wow fadeInRight" data-wow-delay="0.3s">
+						<h4>SEND us a message</h4>
+						<p>We have registered in ENC, NAVY, PF, ESI, Labour Science, Service Lab Registration and we can supply mini vehicles, heavy vehicles, Trailors and man power.</p>
+						<div id="success"></div>
+						{% if done %}
+        <p> Your Message has been forwaded to the respective authorities. Thank You</p>
+
+
+        {% else %}
+						<form novalidate id="contactForm" class="reply-form form-inline" method="post" action="/contactus/" enctype="multipart/form-data">
+                    {% csrf_token %}
+							<div class="row form-elem">
+									
+								<div class="col-sm-6 form-elem">
+									<div class="default-inp form-elem">
+										<i class="fa fa-user"></i>
+										<input type="text" name="fullname" id="id_fullname" placeholder="First Name" required="required">
+									</div>
+									<div class="default-inp form-elem">
+										<i class="fa fa-envelope"></i>
+										<input type="text" name="email" id="id_email" placeholder="Email Address" required="required">
+									</div>
+								</div>
+								<div class="col-sm-6 form-elem">
+									
+									<div class="default-inp form-elem">
+										<i class="fa fa-phone"></i>
+										<input type="text" name="phone" id="id_phone" placeholder="Phone No.">
+									</div>
+								</div>
+							</div>
+							<div class="default-inp form-elem">
+								<input type="text" name="subject" id="id_subject" placeholder="Subject">
+							</div>
+							<div class="form-elem default-inp">
+								<textarea id="message" id="id_message" placeholder="Message"></textarea>
+							</div>
+							<div class="form-elem">
+								<button type="submit" class="btn btn-success btn-default">send message</button>
+							</div>
+						</form>
+{% endif %}
+					</div>
+				</div>
+			</div>
+
+			{% endblock %}

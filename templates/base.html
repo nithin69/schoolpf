@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>MVGR</title>
+        <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+
+        <link href="/static/kkpackers-static/css/master.css" rel="stylesheet">
+       
+		<!-- SWITCHER -->
+		<link rel="stylesheet" id="switcher-css" type="text/css" href="/static/kkpackers-static/assets/switcher/css/switcher.css" media="all" />
+		<link rel="alternate stylesheet" type="text/css" href="/static/kkpackers-static/assets/switcher/css/color1.css" title="color1" media="all" data-default-color="true" />
+		<link rel="alternate stylesheet" type="text/css" href="/static/kkpackers-static/assets/switcher/css/color2.css" title="color2" media="all" />
+		<link rel="alternate stylesheet" type="text/css" href="/static/kkpackers-static/assets/switcher/css/color3.css" title="color3" media="all" />
+		<link rel="alternate stylesheet" type="text/css" href="/static/kkpackers-static/assets/switcher/css/color4.css" title="color4" media="all" />
+		<link rel="alternate stylesheet" type="text/css" href="/static/kkpackers-static/assets/switcher/css/color5.css" title="color5" media="all" />
+		<link rel="alternate stylesheet" type="text/css" href="/static/kkpackers-static/assets/switcher/css/color6.css" title="color6" media="all" />
+        
+        <!--[if lt IE 9]>
+          <script src="//oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+          <script src="//oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
+    </head>
+	<body data-scrolling-animations="true">
+		<div class="sp-body">
+			<!-- Loader Landing Page -->
+		<!--	<div id="ip-container" class="ip-container">
+				<div class="ip-header" >
+					<div class="ip-loader">
+						<svg class="ip-inner" width="60px" height="60px" viewBox="0 0 80 80">
+							<path class="ip-loader-circlebg" d="M40,10C57.351,10,71,23.649,71,40.5S57.351,71,40.5,71 S10,57.351,10,40.5S23.649,10,39.3,10z"/>
+							<path id="ip-loader-circle" class="ip-loader-circle" d="M40,10C57.351,10,71,23.649,71,40.5S57.351,71,40.5,71 S10,57.351,10,40.5S23.649,10,40.5,10z"/>
+						</svg> 
+					</div>
+				</div>
+			</div>  -->
+			<!-- Loader end -->
+	
+			
+	        <header id="this-is-top">
+	            <div class="container-fluid">
+	                <div class="topmenu row">
+	                    <nav class="col-sm-offset-3 col-md-offset-4 col-lg-offset-4 col-sm-6 col-md-5 col-lg-5">
+	                        
+	                    </nav>
+	                   <!-- <nav class="text-right col-sm-3 col-md-3 col-lg-3">
+	                        <a href="https://www.facebook.com/kkpackersandmovers/" target="_blank"><i class="fa fa-facebook"></i></a>
+	                        <a href="#"><i class="fa fa-google-plus"></i></a>
+	                        <a href="#"><i class="fa fa-twitter"></i></a>
+	                        <a href="#"><i class="fa fa-pinterest"></i></a>
+	                        <a href="#"><i class="fa fa-youtube"></i></a>
+	                    </nav>  -->
+	                </div>
+	                <div class="row header">
+	                    <div class="col-sm-3 col-md-3 col-lg-3">
+
+					                        
+	                    </div>
+
+	                </div>
+	                <div id="main-menu-bg"></div>  
+	                <a id="menu-open" href="#"><i class="fa fa-bars"></i></a> 
+	                <nav class="main-menu navbar-main-slide">
+						<ul class="nav navbar-nav navbar-main">
+							<li class="dropdown">
+								<a href="/">HOME </a>
+								
+							</li>
+							<!--<li class="dropdown">
+								<a href="/services/">OUR SERVICES </a>
+								
+							</li>
+							<li class="dropdown">
+								<a href="/about/">ABOUT US </a>
+								
+							</li>
+							
+							<li class="dropdown">
+								<a href="blog/">Blog </a>
+								
+							</li>
+							<li><a href="news.html">NEWS</a></li>
+							<li><a href="/contactus/">CONTACT</a></li>-->
+							{% if user.is_authenticated %}
+									<li>
+									<a href="/fm16/">Fill Form 16</a>
+									</li>
+									<li>
+									<a href="/accounts/logout/">Logout</a>
+									</li>
+									<li>
+									<a href="/myprofile/">Display Completed Form 16</a>
+									</li>
+									
+									
+									{% else %}
+									<li>
+									<a href="/accounts/login/">login</a>
+									</li>
+									<li>
+									<a href="/accounts/register/">Register</a>
+									</li>
+									
+							{% endif %}
+						</ul>
+				
+							
+						
+	                </nav>
+	               
+	            </div>
+	        </header>
+			
+			
+
+{% block body_block %}
+
+            {% endblock %}
+
+
+
+        </div>
+        <!--Main-->   
+        <script src="/static/kkpackers-static/js/jquery-1.11.3.min.js"></script>
+        <script src="/static/kkpackers-static/js/jquery-ui.min.js"></script>
+        <script src="/static/kkpackers-static/js/bootstrap.min.js"></script>
+        <script src="/static/kkpackers-static/js/modernizr.custom.js"></script>
+        
+        <script src="/static/kkpackers-static/assets/rendro-easy-pie-chart/dist/jquery.easypiechart.min.js"></script>
+        <script src="/static/kkpackers-static/js/waypoints.min.js"></script>
+        <script src="/static/kkpackers-static/js/jquery.easypiechart.min.js"></script>
+		<!-- Loader -->
+		<script src="/static/kkpackers-static/assets/loader/js/classie.js"></script>
+		<script src="/static/kkpackers-static/assets/loader/js/pathLoader.js"></script>
+		<script src="/static/kkpackers-static/assets/loader/js/main.js"></script>
+		<script src="/static/kkpackers-static/js/classie.js"></script>
+		<!--Switcher-->
+		<script src="/static/kkpackers-static/assets/switcher/js/switcher.js"></script>
+        <!--Owl Carousel-->
+        <script src="/static/kkpackers-static/assets/owl-carousel/owl.carousel.min.js"></script>
+        <!-- SCRIPTS -->
+	    <script type="text/javascript" src="/static/kkpackers-static/assets/isotope/jquery.isotope.min.js"></script>
+        <!--Theme-->
+        <script src="/static/kkpackers-static/js/jquery.smooth-scroll.js"></script>
+        <script src="/static/kkpackers-static/js/wow.min.js"></script>
+		<script src="/static/kkpackers-static/js/jquery.placeholder.min.js"></script>
+		<script src="/static/kkpackers-static/js/smoothscroll.min.js"></script>
+        <script src="/static/kkpackers-static/js/theme.js"></script>
+	</body>
+
+</html>

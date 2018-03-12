@@ -1,0 +1,240 @@
+{% extends "base.html" %}
+
+{% block title %} KK Packers and Movers  {% endblock %}
+
+{% block body_block %}
+	        
+	        <div id="owl-main-slider" class="owl-carousel enable-owl-carousel" data-single-item="true" data-pagination="false" data-auto-play="true" data-main-slider="true" data-stop-on-hover="true">
+	            <div class="item">
+            		<img src="/static/kkpackers-static/media/main-slider/1.jpg" alt="slider">
+	                <div class="container-fluid">
+                    
+<div class="slider-content col-md-6 col-lg-6">
+                        <div style="display:table;">
+                            <div style="display:table-cell; width:100px; vertical-align:top;">
+                                <a class="prev"><i class="fa fa-angle-left"></i></a>
+                                <a class="next"><i class="fa fa-angle-right"></i></a>
+                            </div>
+                            <div style="display:table-cell;">
+                                <h1>HOUSEHOLD, INDUSTRIAL AND DOMESTIC PACKERS &amp; MOVERS ALL OVER INDIA</h1>
+                            </div>
+                        </div>
+    
+                        <p>We have registered in ENC, NAVY, PF, ESI, Labour Science, Service Lab Registration and we can supply mini vehicles, heavy vehicles, Trailors and man power.<br><a class="btn btn-success" href="#">LEARN MORE</a></p>
+                    </div><div class="slider-content col-md-6 col-lg-6">
+                        <div class="quote-form">
+       <div class="hgroup">
+        <h1 class="color-1"  style="color:white;">DO YOU WANT LORRY FOR YOUR LOAD</h1>
+        
+       </div>
+       <div class="row">
+        <div id="success"></div>
+        <form novalidate="" id="contactForm" method="get" action="/search/" class="reply-form">
+         <div class="col-xs-6">
+          <input type="text" class="form-control" name="q"  placeholder="Source City">
+         </div>
+         <div class="col-xs-6">
+          <input type="text" class="form-control"  name="q" placeholder="Destination City">
+         </div>
+         <div class="col-xs-6">
+          <select id="id_vehicle_type" name="q" class="form-control">
+<option value="" selected="selected">Select Type</option>
+<option value="Loading">Loading</option>
+<option value="Unloading">UnLoading</option>
+<option value="Unpacking">Unpacking</option>
+   </select>
+         </div>
+         <div class="col-xs-6">
+          <input style="color:black; height:47px; width:208px;" id="datepicker" name="q">
+         </div>
+         
+         
+         
+         <div class="col-xs-6 col-xs-offset-6">
+          <button type="submit" class="btn btn-danger">SEARCH</button>
+         </div>
+        </form>
+       </div>
+      </div>
+                    </div>
+                </div>
+
+	            </div>
+	            <div class="item">
+            		<img src="/static/kkpackers-static/media/main-slider/2.jpg" alt="slider">
+	                <div class="container-fluid">
+                    
+<div class="slider-content col-md-6 col-lg-6">
+                        <div style="display:table;">
+                            <div style="display:table-cell; width:100px; vertical-align:top;">
+                                <a class="prev"><i class="fa fa-angle-left"></i></a>
+                                <a class="next"><i class="fa fa-angle-right"></i></a>
+                            </div>
+                            <div style="display:table-cell;">
+                                <h1>HOUSEHOLD, INDUSTRIAL AND DOMESTIC PACKERS &amp; MOVERS ALL OVER INDIA</h1>
+                            </div>
+                        </div>
+    
+                        <p>We have registered in ENC, NAVY, PF, ESI, Labour Science, Service Lab Registration and we can supply mini vehicles, heavy vehicles, Trailors and man power.<br><a class="btn btn-success" href="#">LEARN MORE</a></p>
+                    </div><div class="slider-content col-md-6 col-lg-6">
+                        <div class="quote-form">
+       <div class="hgroup">
+        <h1 class="color-1" style="color:white;">DO YOU WANT LORRY FOR YOUR LOAD</h1>
+        
+       </div>
+       <div class="row">
+        <div id="success"></div>
+        <form novalidate="" id="contactForm" method="get" action="/search/" class="reply-form">
+         <div class="col-xs-6">
+          <input type="text" class="form-control" name="q"  placeholder="Source City">
+         </div>
+         <div class="col-xs-6">
+          <input type="text" class="form-control"  name="q" placeholder="Destination City">
+         </div>
+         <div class="col-xs-6">
+          <select id="id_vehicle_type" name="q" class="form-control">
+<option value="" selected="selected">------------</option>
+<option value="Loading">Loading</option>
+<option value="Unloading">UnLoading</option>
+<option value="Unpacking">Unpacking</option>
+   </select>
+         </div>
+         <div class="col-xs-6">
+          <input style="color:black; height:47px; width:208px;" id="datepicker1" name="q">
+         </div>
+         
+         
+         
+         <div class="col-xs-6 col-xs-offset-6">
+          <button type="submit" class="btn btn-danger">SEARCH</button>
+         </div>
+        </form>
+       </div>
+      </div>
+                    </div>
+                </div>
+	            </div>
+	        </div>
+	        
+	        <div class="container-fluid">
+        		<div class="row column-info block-content">
+            		<div class="col-sm-4 col-md-4 col-lg-4 wow fadeInLeft" data-wow-delay="1.3s">
+                		<img src="/static/kkpackers-static/media/3-column-info/111.jpg" alt="slider">
+	                    <span></span>
+	                    <h3>SAFE & SECURE DELIVERY</h3>
+	                    <p>We provide safe and secure delivery of products to our customers.</p>
+	                    <a class="btn btn-default btn-sm" href="#">READ MORE</a>
+	                </div>
+	                <div class="col-sm-4 col-md-4 col-lg-4 wow fadeInUp" data-wow-delay="1.3s">
+                		<img src="/static/kkpackers-static/media/3-column-info/img71.jpg" alt="Img">
+	                    <span></span>
+	                    <h3>RELIABLE</h3>
+	                    <p>We provide safe, secure and reliable delivery of products to our customers.</p>
+	                    <a class="btn btn-default btn-sm" href="#">READ MORE</a>
+	                </div>
+	                <div class="col-sm-4 col-md-4 col-lg-4 wow fadeInRight" data-wow-delay="2.3s">
+                		<img src="/static/kkpackers-static/media/3-column-info/img42.jpg" alt="Img">
+	                    <span></span>
+	                    <h3>ON TIME DELIVERY</h3>
+	                    <p>We provide on time delivery of products to our customers.</p>
+	                    <a class="btn btn-default btn-sm" href="#">READ MORE</a>
+	                </div>
+	            </div>
+	        </div>
+	        
+	        <hr>
+	        
+	        
+	        <div class="container-fluid block-content">
+        		<div class="text-center hgroup wow zoomInUp" data-wow-delay="0.3s">
+            		<h1>OUR SERVICES</h1>
+            		<h2>We have wide network of offices in all major locations to help you with <br> the services we offer</h2>
+	            </div>
+				<div class="row our-services">
+            		<div class="col-sm-6 col-md-4 col-lg-4 wow zoomInLeft" data-wow-delay="0.3s">
+                		
+						<a href="#">
+                    		<span><img src="/static/kkpackers-static/img/e.jpg" style="margin-top: -17px;margin-left: -3px;"></span>
+                    		<h4>Road transportation</h4>
+	                        <p>We can import and export cargo packages transportation through road</p>
+	                    </a>
+						
+	                </div>
+	                <div class="col-sm-6 col-md-4 col-lg-4 wow zoomInUp" data-wow-delay="0.3s">
+                		
+						<a href="#">
+                    		<span><img src="/static/kkpackers-static/img/storage.jpg" style="margin-top: -17px;margin-left: -3px;"></span>
+                    		<h4>Packaging & Storage</h4>
+	                        <p>we can provide packaging and storage facility.</p>
+	                    </a>
+						
+	                </div>
+	                <div class="col-sm-6 col-md-4 col-lg-4 wow zoomInRight" data-wow-delay="0.3s">
+                		<a href="#">
+                    		<span><img src="/static/kkpackers-static/img/ware.jpg" style="margin-top: -17px;margin-left: -3px;"></span>
+                    		<h4>Warehousing</h4>
+	                        <p>we can provide warehousing facility.</p>
+	                    </a>
+	                </div>
+	              
+	                <div class="col-sm-6 col-md-4 col-lg-4 wow zoomInUp" data-wow-delay="0.3s">
+                		
+						<a href="#">
+                    		<span><img src="/static/kkpackers-static/img/air.jpg" style="margin-top: -17px;margin-left: -3px;"></span>
+                    		<h4>AIR FREIGHT</h4>
+	                        <p>We can import and export aircargo packages transportation from visakhapatnam airport</p>
+	                    </a>
+						
+	                </div>
+	                <div class="col-sm-6 col-md-4 col-lg-4 wow zoomInRight" data-wow-delay="0.3s">
+                		<a href="#">
+                    		<span><img src="/static/kkpackers-static/img/rail.jpg" style="margin-top: -17px;margin-left: -3px;"></span>
+                    		<h4>RAIL FREIGHT</h4>
+	                        <p>We can import and export cargo packages transportation through rail also.</p>
+	                    </a>
+						
+	                </div>
+					<div class="col-sm-6 col-md-4 col-lg-4 wow zoomInRight" data-wow-delay="0.3s">
+                		<a href="#">
+                    		<span><img src="/static/kkpackers-static/img/sea.jpg" style="margin-top: -17px;margin-left: -3px;"></span>
+                    		<h4>SEA FREIGHT</h4>
+	                        <p>We can import and export cargo packages transportation from visakhapatnam port.</p>
+	                    </a>
+	                </div>
+					
+	            </div>
+	        </div>
+	        
+	        <div class="fleet-gallery block-content bg-image inner-offset">
+        		<div class="container-fluid inner-offset">
+	                <div class="text-center hgroup wow zoomInUp" data-wow-delay="0.3s">
+	                    <h1>THE FLEETS GALLERY</h1>
+	                    <h2>we always use best & fastest fleets</h2>
+	                </div>
+	                <div id="fleet-gallery" class="owl-carousel enable-owl-carousel" data-pagination="false" data-navigation="true" data-min450="2" data-min600="2" data-min768="4">
+	                    <div class="wow rotateIn" data-wow-delay="0.3s"><img src="/static/kkpackers-static/media/fleet-gallery/1.png" alt="Img"></div>
+	                    <div class="wow rotateIn" data-wow-delay="0.3s"><img src="/static/kkpackers-static/media/fleet-gallery/img12.png" alt="Img"></div>
+	                    <div class="wow rotateIn" data-wow-delay="0.3s"><img src="/static/kkpackers-static/media/fleet-gallery/img11.png" alt="Img"></div>
+	                    <div class="wow rotateIn" data-wow-delay="0.3s"><img src="/static/kkpackers-static/media/fleet-gallery/2.jpg" alt="Img"></div>
+	                    <div class="wow rotateIn" data-wow-delay="0.3s"><img src="/static/kkpackers-static/media/fleet-gallery/1.png" alt="Img"></div>
+	                    <div class="wow rotateIn" data-wow-delay="0.3s"><img src="/static/kkpackers-static/media/fleet-gallery/img12.png" alt="Img"></div>
+	                </div>
+    			</div>
+	        </div>
+	      
+	        
+	        <div class="container-fluid partners block-content">
+	            <div class="hgroup title-space wow fadeInLeft" data-wow-delay="0.3s">
+	                <h1>TRUSTED partners</h1>
+	                <h2>HOUSEHOLD, INDUSTRIAL AND DOMESTIC PACKERS & MOVERS</h2>
+	            </div>
+	            <div id="partners" class="owl-carousel enable-owl-carousel" data-pagination="false" data-navigation="true" data-min450="2" data-min600="2" data-min768="4">
+	                <div class="wow rotateIn" data-wow-delay="0.3s"><a href="#"><img src="/static/kkpackers-static/media/partners/1.png" alt="Img"></a></div>
+	                <div class="wow rotateIn" data-wow-delay="0.3s"><a href="#"><img src="/static/kkpackers-static/media/partners/2.png" alt="Img"></a></div>
+	                <div class="wow rotateIn" data-wow-delay="0.3s"><a href="#"><img src="/static/kkpackers-static/media/partners/3.png" alt="Img"></a></div>
+	                <div class="wow rotateIn" data-wow-delay="0.3s"><a href="#"><img src="/static/kkpackers-static/media/partners/4.png" alt="Img"></a></div>
+	                <div class="wow rotateIn" data-wow-delay="0.3s"><a href="#"><img src="/static/kkpackers-static/media/partners/1.png" alt="Img"></a></div>
+	                <div class="wow rotateIn" data-wow-delay="0.3s"><a href="#"><img src="/static/kkpackers-static/media/partners/2.png" alt="Img"></a></div>
+	            </div>
+	        </div>
+{% endblock %} 	       

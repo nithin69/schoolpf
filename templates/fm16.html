@@ -1,0 +1,635 @@
+{% extends "base.html" %}
+
+{% block title %} MVGR  {% endblock %}
+
+{% block body_block %}
+
+<div class="container-fluid">
+	<div class="row">
+		<div class="col-md-12">
+		<center>	
+		
+		
+		<div class="col-sm-8 wow fadeInRight" data-wow-delay="0.3s">
+						<h4>SEND us a message</h4>
+						<p>We have registered in ENC, NAVY, PF, ESI, Labour Science, Service Lab Registration and we can supply mini vehicles, heavy vehicles, Trailors and man power.</p>
+						<div id="success"></div>
+						{% if done %}
+        <p> Your Message has been forwaded to the respective authorities. Thank You</p>
+
+
+        {% else %}
+		
+		<form novalidate id="contactForm" class="reply-form form-inline" method="post" action="/fm16/">
+                    {% csrf_token %}
+					
+
+<legend>Personal Information</legend>
+
+<!-- Text input-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="First_name">First name</label>  
+  <div class="col-md-4">
+  <input id="first_name" name="first_name" type="text" placeholder="first name" class="form-control input-md" required="">
+    
+  </div>
+</div>
+
+<!-- Text input-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="Last_name">Last name</label>  
+  <div class="col-md-4">
+  <input id="last_name" name="last_name" type="text" placeholder="lastname" class="form-control input-md" required="">
+    
+  </div>
+</div>
+
+<!-- Text input-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="ID">Faculty ID</label>  
+  <div class="col-md-4">
+  <input id="f_id" name="f_id" type="text" placeholder="id" class="form-control input-md" required="">
+    
+  </div>
+</div>
+
+<!-- Text input-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="Designation">Designation</label>  
+  <div class="col-md-4">
+  <input id="designation" name="designation" type="text" placeholder="designation" class="form-control input-md" required="">
+    
+  </div>
+</div>
+
+<!-- Text input-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="phone">phone</label>  
+  <div class="col-md-4">
+  <input id="phone" name="phone" type="text" placeholder="phone no" class="form-control input-md" required="">
+    
+  </div>
+</div>
+
+<!-- Text input-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="Email">Email</label>  
+  <div class="col-md-4">
+  <input id="email" name="email" type="text" placeholder="email" class="form-control input-md">
+    
+  </div>
+</div>
+
+<!-- Text input-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="Bank_no">Bank no</label>  
+  <div class="col-md-4">
+  <input id="bank_no" name="bank_no" type="text" placeholder="bank no" class="form-control input-md" required="">
+    
+  </div>
+</div>
+
+<!-- Text input-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="pan ">Pan no</label>  
+  <div class="col-md-4">
+  <input id="pan " name="pan " type="text" placeholder="pan no" class="form-control input-md" required="">
+    
+  </div>
+</div>
+
+<!-- Textarea -->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="Address">Address</label>
+  <div class="col-md-4">                     
+    <textarea class="form-control" id="address" name="address"></textarea>
+  </div>
+</div>
+
+
+
+<hr><hr>
+
+		
+
+<table>
+<tbody>
+
+<tr>
+  <td>
+  <p style="color:red"> Fill all data for whole the year / <b>YEARLY</b> </p>
+  </td>
+  <td>
+ 
+ </td>
+ </tr>
+
+<tr><td colspan="2">Fields <b> 2, 3 & 9 </b>are mandatory.
+ </td></tr>
+
+
+
+
+<tr bgcolor="#ccccff">
+  <td>
+  2.<strong><em> Gross <b>Salary</b> (/year):</em></strong>  [u/s 17(1)]<br/>
+  If you do not know gross salary <a href="http://www.biswa.net" target="_blank"> CLICK HERE </a> to know it.
+  </td>
+  <td>Rs. 
+ <input type="text" name="g_salary" id="g_salary" required/>
+ </td>
+ </tr>
+
+  <tr>
+  <td>
+  3.<strong><em> b)Value of perquisites under section 17(2):</em></strong>
+  </td>
+  <td>Rs. 
+ <input type="text" name="p_tax" id="p_tax" required/>
+ </td>
+ </tr>
+ 
+
+
+
+<tr><td>--</td><td>--</td></tr>
+<tr bgcolor="#4bffd4">
+  <td  colspan="2">
+ <b>Other source of income fill up if applicable </b>
+  </td></tr>
+
+<tr bgcolor="#ccccff">
+  <td>
+5.<em>Bank Interest from savings (<b>SB</b>) accounts:</em>
+  </td>
+  <td>Rs. 
+  <input type="text" name="bank_interest" id="bank_interest">
+ </td>
+ </tr>
+
+<tr >
+  <td>
+ 6. [u/s 17(2)]<b>PERQUISITES </b>casual benefit get from office in addition to salary:
+  </td>
+  <td>Rs. 
+ <input type="text" name="us_17_2" id="us_17_2">
+ </td>
+ </tr>
+<tr bgcolor="#ccccff">
+  <td>
+ 7. [u/s 17(3)] profits in lieu of Salaries:<br/>
+such as amount of any compensation received by an assesses 
+  </td>
+  <td>Rs. 
+ <input type="text" name="us_17_3" id="us_17_3">
+ </td>
+ </tr>
+
+
+<tr >
+  <td>
+8. Income from other source if any : </br>
+
+
+  </td>
+  <td>Rs. 
+  <input type="text" name="other_income" id="other_income">
+ </td>
+ </tr>
+
+<tr><td>--</td><td>--</td></tr>
+<tr bgcolor="#4bffd4">
+  <td  colspan="2">
+  <b> (80C) Fill up the following which is applicable other wise keep blank</b>
+  
+
+ </td>
+ </tr>
+
+<tr bgcolor="#ccccff">
+ <td>
+  9. <strong><em>General Provident Fund  (PF or GPF /year)</em></strong>
+ </td>
+ <td>Rs. 
+<input type="text" name="gpf" id="gpf" required/>
+ </td>
+</tr>
+
+<tr>
+  <td>
+ 10. Public Provident Fund (PPF /year):<br>
+  </td>
+  <td>Rs. 
+  <input type="text" name="ppf" id="ppf">
+ </td>
+ </tr>
+
+<tr bgcolor="#ccccff">
+<td>11. Group Insurance (GIS /year)<br/>
+</td>
+<td>Rs. 
+  
+	<input type="text" name="gis" id="gis">							
+                                
+</td></tr>
+
+<tr>
+  <td>
+ 12. LIC Premium (/year):<br>
+  </td>
+  <td>Rs. 
+  <input type="text" name="lic" id="lic">
+ </td>
+ </tr>
+
+<tr bgcolor="#ccccff">
+  <td>
+13.  PLI Premium (/year):<br>
+  </td>
+  <td>Rs. 
+  <input type="text" name="pli" id="pli">
+ </td>
+ </tr>
+
+
+<tr>
+  <td>
+14. Child Educational Expense (/year):<br>
+  </td>
+  <td>Rs. 
+  <input type="text" name="edu_expense" id="edu_expense">
+ </td>
+ </tr>
+
+<tr bgcolor="#ccccff">
+  <td>
+15.  House Building Loan  <b>Principal</b>:
+
+
+  </td>
+  <td>Rs. 
+  <input type="text" name="hbl_principal" id="hbl_principal">
+ </td>
+ </tr>
+
+<tr>
+  <td>
+ 16. Mutual Fund (/year):<br>
+  </td>
+  <td>Rs. 
+  <input type="text" name="mf"  id="mf">
+ </td>
+ </tr>
+
+<tr bgcolor="#ccccff">
+  <td>
+ 17.   NSC (/year):
+  </td>
+  <td>Rs. 
+  <input type="text" name="nsc" id="nsc">
+ </td>
+ </tr>
+
+<tr>
+
+<tr>
+  <td>
+ 18. Sukanya Samriddhi:
+  </td>
+  <td>Rs. 
+  <input type="text" name="sukanya" id="sukanya">
+ </td>
+ </tr>
+
+<tr bgcolor="#ccccff">
+  <td>
+  19.  Other Investment [under 80C]<br/>Name 
+  <input type="text" name="other_savings_name" id="other_savings_name">
+  </td>
+  <td>Rs. 
+  <input type="text" name="other_savings" id="other_savings">
+ </td>
+ </tr>
+
+
+<tr><td>--</td><td>--</td></tr>
+<tr bgcolor="#4bffd4">
+  <td  colspan="2">
+ <b> (80D  to 80U) keep blank which is not applicable</b>
+  
+
+ </td>
+ </tr>
+
+<tr>
+  <td>
+   20. <strong>80D Mediclaim</strong> &nbsp; &nbsp; <select name="medi_type" id="medi_type" />
+                
+	<option value ="Normal">Normal </option>
+        <option value ="Parent_seniorctzn">Including Parent Seniorctzn </option>
+        <option value ="Parent_non_seniorctzn">Including Parent not Seniorctzn </option>
+  </td>
+  <td>Rs. 
+  <input type="text" name="mediclaim" id="mediclaim"> 
+  
+
+ </td>
+ </tr>
+
+
+
+
+
+
+<tr bgcolor="#ccccff">
+  <td>
+ 21. (80E) <b>Interest</b> on Education  Loan: <br/>
+
+
+  </td>
+  <td>Rs. 
+  <input type="text" name="edu_loan" id="edu_loan">
+ </td>
+ </tr>
+
+<tr>
+  <td>
+22. 80EE <b>House Building </b> Loan <b>Interest</b> :
+
+  </td>
+  <td>Rs. 
+  <input type="text" name="hbl_interest" id="hbl_interest">
+ </td>
+ </tr>
+
+
+<tr bgcolor="#ccccff">
+  <td>
+ 23. (80G) Donation to  
+ <select name="donation_type" />
+                
+	<option value ="Registered_organisation">Registered Organisation </option>
+        <option value ="Other_organisation"> Other Organisation </option>
+
+  </td>
+  <td>Rs. 
+  <input type="text" name="donation" id="donation">
+ </td>
+ </tr>
+<tr>
+  <td>
+  <b>24. </b> If any Other (Name) 
+  <input type="text" name="other_80_name_1" id="other_80_name_1">
+  </td>
+  <td>Rs. 
+  <input type="text" name="other_80_1" id="other_80_1">
+ </td>
+ </tr>
+
+
+<tr bgcolor="#ccccff">
+  <td>
+  <b>25.</b> If any Other (Name)
+  <input type="text" name="other_80_name_2" id="other_80_name_2">
+  </td>
+  <td>Rs. 
+  <input type="text" name="other_80_2" id="other_80_2">
+ </td>
+ </tr>
+
+
+
+
+<tr><td>--</td><td>--</td></tr>
+<tr bgcolor="#4bffd4">
+  <td  colspan="2">
+ <b>If you live in a rented house fill up the following, other wise not </b>
+  </td>
+ </tr>
+
+
+<tr bgcolor="#ccccff">
+  <td>
+26. [u/s 10(13A)] House rent exemption  : </br>
+If you do not know HRA Exempt <br/>
+<a href="http://biswa.net/house-rent-exemption-calculator.html" target="_blank">Click Here</a> to know. 
+
+
+
+  </td>
+  <td>Rs. 
+  <input type="text" name="house_rent_exempt" id="house_rent_exempt">
+ </td>
+ </tr>
+
+
+<tr><td>--</td><td>--</td></tr>
+<tr bgcolor="#4bffd4">
+  <td  colspan="2">
+ <b> us 10(14)Exemption on allowance/ Keep blank if not applicable</b>
+  </td></tr>
+
+<tr bgcolor="#ccccff">
+  <td>
+27. Travelling allowance/transfer allowance<br/>
+Conveyance allowance, Daily allowance <br/>
+Helper allowance, Research allowance <br/>
+Uniform allowance [us 10(14)(i)] . various <br/>
+Difficult areas special allowance.us 10(14)(ii)
+  </td>
+  <td>Rs. 
+  <input type="text" name="us_10_14" name="us_10_14">
+ </td>
+ </tr>
+
+
+
+
+
+
+<tr><td>--</td><td>--</td></tr>
+<tr bgcolor="#4bffd4">
+  <td  colspan="2">
+  <b> Tax relief under sec 89 / Keep blank if not applicable</b>
+  </td></tr>
+
+<tr bgcolor="#ccccff">
+  <td>
+28. Tax relief under section 89: </br>
+special case/ keep blank
+
+  </td>
+  <td>Rs. 
+  <input type="text" name="tax_relief_89"  id="tax_relief_89">
+ </td>
+ </tr>
+
+
+<tr><td>--</td><td>--</td></tr>
+<tr bgcolor="#4bffd4">
+  <td  colspan="2">
+ <b> Tax relief 80CCC, 80CCD / Keep blank if not applicable</b>
+  </td></tr>
+
+<tr bgcolor="#ccccff">
+  <td>
+29. 80CCC Savings on specified <br/>Pension Plan
+
+  </td>
+  <td>Rs. 
+  <input type="text" name="relief_80ccc"  id="relief_80ccc">
+ </td>
+ </tr>
+
+<tr>
+  <td>
+30. 80CCD contribution to pension <br/> scheme of Central Government
+
+  </td>
+  <td>Rs. 
+  <input type="text" name="relief_80ccd"  id="relief_80ccd">
+ </td>
+ </tr>
+
+<tr><td>--</td><td>--</td></tr>
+<tr bgcolor="#4bffd4">
+  <td  colspan="2">
+ <b><span style="color:red;"> No</span> information is stored in this website. Still you may keep blank 
+the  following fields.</b> Information about employee, employer & institution.
+  </td></tr>
+
+<tr bgcolor="#ccccff">
+  <td>
+31. Name of the <b><em> employee</em></b> <br/>
+You may keep blank
+
+  </td>
+  <td>&nbsp; &nbsp; &nbsp;  
+  <input type="text" name="name_employee"  id="name_employee">
+ </td>
+ </tr>
+
+<tr>
+  <td>
+32. Designation of the <b><em> employee</em></b> <br/> You may keep blank
+
+  </td>
+  <td>&nbsp; &nbsp; &nbsp; 
+  <input type="text" name="desig_employee"  id="desig_employee">
+ </td>
+ </tr>
+<tr bgcolor="#ccccff">
+  <td>
+33. PAN no. of the <b><em> employee</em></b> <br/>
+You may keep blank
+
+  </td>
+  <td>&nbsp; &nbsp; &nbsp; 
+  <input type="text" name="pan_employee"  id="pan_employee">
+ </td>
+ </tr>
+
+<tr>
+  <td>
+34. Name of the <b><em> employer</em></b> <br/> 
+HM/DI/etc. You may keep blank
+
+  </td>
+  <td>&nbsp; &nbsp; &nbsp;  
+  <input type="text" name="name_employer"  id="name_employer">
+ </td>
+ </tr>
+
+<tr bgcolor="#ccccff">
+  <td>
+35. Designation of the <b><em> employer</em></b> <br/> 
+HM/DI/etc. You may keep blank
+
+  </td>
+  <td>&nbsp; &nbsp; &nbsp;  
+  <input type="text" name="desig_employer" id="desig_employer">
+ </td>
+ </tr>
+
+<tr>
+  <td>
+36. TAN of the <b><em> employer</em></b> <br/> 
+DI/etc. You may keep blank
+
+  </td>
+  <td>&nbsp; &nbsp; &nbsp; 
+  <input type="text" name="tan_employer"  id="tan_employer">
+ </td>
+ </tr>
+
+<tr bgcolor="#ccccff">
+  <td>
+37. PAN of the <b><em> employer</em></b> <br/> 
+DI/etc. You may keep blank
+
+  </td>
+  <td>&nbsp; &nbsp; &nbsp; 
+  <input type="text" name="pan_employer"  id="pan_employer">
+ </td>
+ </tr>
+
+<tr ><td>
+38. Name & Address of Employer/Institution/<br/>School. 
+You may keep blank</td><td>
+<textarea name="office_address" cols="30" rows="3" id="office_address" maxlength="300"></textarea>
+</td></tr>  
+
+<tr bgcolor="#ccccff">
+  <td>
+39. Date of signature by <b><em> employer</em></b><br/> 
+ You may keep blank
+
+  </td>
+  <td>&nbsp; &nbsp; &nbsp; 
+  <input type="text" name="date_employer_sign"  id="date_employer_sign">
+ </td>
+ </tr>
+
+<tr><td>
+40. Place of signature by <b><em> employer</em></b><br/> 
+ You may keep blank
+
+  </td>
+  <td>&nbsp; &nbsp; &nbsp; 
+  <input type="text" name="place_employer_sign"  id="place_employer_sign">
+ </td>
+ </tr>
+
+<tr bgcolor="#ccccff">
+  <td>
+41. Name of father of <b><em> employer</em></b> <br/> 
+ You may keep blank
+
+  </td>
+  <td>&nbsp; &nbsp; &nbsp; 
+  <input type="text" name="name_employer_father"  id="name_employer_father">
+ </td>
+ </tr>
+
+
+</tbody>
+
+</table>
+
+<br/>
+
+<input type ="submit" value="SUBMIT" class="btn btn-lg btn-info" onclick="/fm16/"/>
+<!--OR 
+<input type = "submit" value="CALCULATE TAX"  onclick="calculateTax()"/>
+-->
+</form>
+
+{% endif %}
+					</div>
+
+ </center>
+		</div>
+	</div>
+</div>
+
+{% endblock %} 	       

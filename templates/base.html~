@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html>
+
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>KK Packers and Movers</title>
+        <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+  
+  <script>
+  $(document).ready(function() {
+    $("#datepicker").datepicker();
+  });
+  </script>
+  <script>
+  $(document).ready(function() {
+    $("#datepicker1").datepicker1();
+  });
+  </script>
+        <link href="/static/kkpackers-static/css/master.css" rel="stylesheet">
+       
+		<!-- SWITCHER -->
+		<link rel="stylesheet" id="switcher-css" type="text/css" href="/static/kkpackers-static/assets/switcher/css/switcher.css" media="all" />
+		<link rel="alternate stylesheet" type="text/css" href="/static/kkpackers-static/assets/switcher/css/color1.css" title="color1" media="all" data-default-color="true" />
+		<link rel="alternate stylesheet" type="text/css" href="/static/kkpackers-static/assets/switcher/css/color2.css" title="color2" media="all" />
+		<link rel="alternate stylesheet" type="text/css" href="/static/kkpackers-static/assets/switcher/css/color3.css" title="color3" media="all" />
+		<link rel="alternate stylesheet" type="text/css" href="/static/kkpackers-static/assets/switcher/css/color4.css" title="color4" media="all" />
+		<link rel="alternate stylesheet" type="text/css" href="/static/kkpackers-static/assets/switcher/css/color5.css" title="color5" media="all" />
+		<link rel="alternate stylesheet" type="text/css" href="/static/kkpackers-static/assets/switcher/css/color6.css" title="color6" media="all" />
+        
+        <!--[if lt IE 9]>
+          <script src="//oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+          <script src="//oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
+    </head>
+	<body data-scrolling-animations="true">
+		<div class="sp-body">
+			<!-- Loader Landing Page -->
+			<div id="ip-container" class="ip-container">
+				<div class="ip-header" >
+					<div class="ip-loader">
+						<svg class="ip-inner" width="60px" height="60px" viewBox="0 0 80 80">
+							<path class="ip-loader-circlebg" d="M40,10C57.351,10,71,23.649,71,40.5S57.351,71,40.5,71 S10,57.351,10,40.5S23.649,10,39.3,10z"/>
+							<path id="ip-loader-circle" class="ip-loader-circle" d="M40,10C57.351,10,71,23.649,71,40.5S57.351,71,40.5,71 S10,57.351,10,40.5S23.649,10,40.5,10z"/>
+						</svg> 
+					</div>
+				</div>
+			</div>
+			<!-- Loader end -->
+	
+			
+	        <header id="this-is-top">
+	            <div class="container-fluid">
+	                <div class="topmenu row">
+	                    <nav class="col-sm-offset-3 col-md-offset-4 col-lg-offset-4 col-sm-6 col-md-5 col-lg-5">
+	                        
+	                    </nav>
+	                    <nav class="text-right col-sm-3 col-md-3 col-lg-3">
+	                        <a href="https://www.facebook.com/kkpackersandmovers/" target="_blank"><i class="fa fa-facebook"></i></a>
+	                        <a href="#"><i class="fa fa-google-plus"></i></a>
+	                        <a href="#"><i class="fa fa-twitter"></i></a>
+	                        <a href="#"><i class="fa fa-pinterest"></i></a>
+	                        <a href="#"><i class="fa fa-youtube"></i></a>
+	                    </nav>
+	                </div>
+	                <div class="row header">
+	                    <div class="col-sm-3 col-md-3 col-lg-3">
+
+					                        <a href="/" id="logo"></a>
+	                    </div>
+	                    <div class="col-sm-offset-1 col-md-offset-1 col-lg-offset-1 col-sm-8 col-md-8 col-lg-8">
+	                        <div class="text-right header-padding">
+	                            <div class="h-block"><span>CALL US</span>0891-2549577</div>
+	                            <div class="h-block"><span>EMAIL US</span>kkpackersmovers@yahoo.co.in</div>
+	                            <div class="h-block"><span>WORKING HOURS</span>24/7 Support</div>
+	                            <!--<a class="btn btn-success" href="#">GET A FREE QUOTE</a>-->
+	                        </div>
+	                    </div>
+	                </div>
+	                <div id="main-menu-bg"></div>  
+	                <a id="menu-open" href="#"><i class="fa fa-bars"></i></a> 
+	                <nav class="main-menu navbar-main-slide">
+						<ul class="nav navbar-nav navbar-main">
+							<li class="dropdown">
+								<a href="/">HOME </a>
+								
+							</li>
+							<li class="dropdown">
+								<a href="/kkpackers/services/">OUR SERVICES </a>
+								
+							</li>
+							<li class="dropdown">
+								<a href="/kkpackers/about/">ABOUT US </a>
+								
+							</li>
+							<li>
+								<a href="/kkpackers/enrollment/">ENROLLMENT </a>
+								
+							</li>
+							
+							<!--<li class="dropdown">
+								<a href="blog/">Blog </a>
+								
+							</li>
+							<li><a href="news.html">NEWS</a></li>-->
+							<li><a href="/kkpackers/contactus/">CONTACT</a></li>
+							<li class="dropdown">
+								<a href="/accounts/login/">Login </a>
+								
+							</li>
+							<li class="dropdown">
+								<a href="/accounts/register/">Register </a>
+								
+							</li>
+						</ul>
+				
+							<form class="navbar-form navbar-right hidden-sm hidden-md hidden-xs" role="search" method="get" action="/search/" style="margin-right: -90px;">
+      <div class="input-group">
+      <input type="text" name="q" class="form-control" placeholder="Search..."/>
+      <span class="input-group-btn">
+        <button class="btn btn-success" type="submit" style="margin-top: -20px;">Search</button>
+      </span></div>
+      </form>
+						
+	                </nav>
+	               
+	            </div>
+	        </header>
+			
+			
+
+{% block body_block %}
+
+            {% endblock %}
+
+
+
+<footer>
+        		<div class="color-part2"></div>
+        		<div class="color-part"></div>
+        		<div class="container-fluid">
+            		<div class="row block-content">
+               			<div class="col-sm-4 wow zoomIn" data-wow-delay="0.3s">
+                    		<h2 style="color:white;">KK PACKERS & MOVERS</h2>
+	                        <p>We have registered in ENC, NAVY, PF, ESI, Labour Science, Service Lab Registration and we can supply mini vehicles, heavy vehicles, Trailors and man power</p>
+	                        <div class="footer-icons">
+	                            <a href="https://www.facebook.com/kkpackersandmovers/" target="_blank"><i class="fa fa-facebook-square fa-2x"></i></a>
+	                            <a href="#"><i class="fa fa-google-plus-square fa-2x"></i></a>
+	                            <a href="#"><i class="fa fa-twitter-square fa-2x"></i></a>
+	                            <a href="#"><i class="fa fa-pinterest-square fa-2x"></i></a>
+	                            <a href="#"><i class="fa fa-vimeo-square fa-2x"></i></a>
+	                        </div>
+	                        <!--<a href="#" class="btn btn-lg btn-danger">GET A FREE QUOTE</a>-->
+	                    </div>
+	                    <div class="col-sm-2 wow zoomIn" data-wow-delay="0.3s">
+                    		<h4>WE OFFERS</h4>
+	                        <nav>
+                        		
+	                            <a href="#">Road Transportation</a>
+	                            <a href="#">Packaging & Storage</a>
+	                            <a href="#">Warehousing</a>
+								<a href="#">Air Freight</a>
+								<a href="#">Railway Logistics</a>
+								<a href="#">Sea Freight</a>
+	                        </nav>
+	                    </div>
+	                    <div class="col-sm-2 wow zoomIn" data-wow-delay="0.3s">
+                    		<h4>MAIN LINKS</h4>
+	                        <nav>
+                        		<a href="/">Home</a>
+	                            <a href="/services/">Our Services</a>
+	                            <a href="/about/">About Us</a>
+	                            <a href="/contactus/">Contact</a>
+	                        </nav>
+	                    </div>
+	                    <div class="col-sm-4 wow zoomIn" data-wow-delay="0.3s">
+                    		<h4>CONTACT INFO</h4>
+	                        Everyday is a new day for us and we work really hard to satisfy our customers everywhere.
+	                        <div class="contact-info">
+	                            <span><i class="fa fa-location-arrow"></i><strong>KK Packers and Movers.</strong><br>Dno 7-11-36, R.C.M. Church Left side, BHPV Road<br>
+Old Gajuwaka, Visakhapatnam-530026, AP </span>
+	                            <span><i class="fa fa-phone"></i>9848198358</span>
+	                            <span><i class="fa fa-envelope"></i>kkpackersmovers@yahoo.co.in   |   kkpackersmovers@rediffmail.com</span>
+	                            <span><i class="fa fa-clock-o"></i>24/7 Support</span>
+	                        </div>
+	                    </div>
+	                </div>
+             		<div class="copy text-right"><a id="to-top" href="#this-is-top"><i class="fa fa-chevron-up"></i></a>Created by <a href="http://delevere.com/"  target="_blank">Delevere.com</a> &copy; 2016 Delevere All rights reserved.</div>
+	             </div>
+	        </footer>
+        </div>
+        <!--Main-->   
+        <script src="/static/kkpackers-static/js/jquery-1.11.3.min.js"></script>
+        <script src="/static/kkpackers-static/js/jquery-ui.min.js"></script>
+        <script src="/static/kkpackers-static/js/bootstrap.min.js"></script>
+        <script src="/static/kkpackers-static/js/modernizr.custom.js"></script>
+        
+        <script src="/static/kkpackers-static/assets/rendro-easy-pie-chart/dist/jquery.easypiechart.min.js"></script>
+        <script src="/static/kkpackers-static/js/waypoints.min.js"></script>
+        <script src="/static/kkpackers-static/js/jquery.easypiechart.min.js"></script>
+		<!-- Loader -->
+		<script src="/static/kkpackers-static/assets/loader/js/classie.js"></script>
+		<script src="/static/kkpackers-static/assets/loader/js/pathLoader.js"></script>
+		<script src="/static/kkpackers-static/assets/loader/js/main.js"></script>
+		<script src="/static/kkpackers-static/js/classie.js"></script>
+		<!--Switcher-->
+		<script src="/static/kkpackers-static/assets/switcher/js/switcher.js"></script>
+        <!--Owl Carousel-->
+        <script src="/static/kkpackers-static/assets/owl-carousel/owl.carousel.min.js"></script>
+        <!-- SCRIPTS -->
+	    <script type="text/javascript" src="/static/kkpackers-static/assets/isotope/jquery.isotope.min.js"></script>
+        <!--Theme-->
+        <script src="/static/kkpackers-static/js/jquery.smooth-scroll.js"></script>
+        <script src="/static/kkpackers-static/js/wow.min.js"></script>
+		<script src="/static/kkpackers-static/js/jquery.placeholder.min.js"></script>
+		<script src="/static/kkpackers-static/js/smoothscroll.min.js"></script>
+        <script src="/static/kkpackers-static/js/theme.js"></script>
+	</body>
+
+</html>

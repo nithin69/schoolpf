@@ -1,0 +1,17 @@
+from django.conf.urls import patterns, url, include
+from myproject import models, views
+from django.conf import settings
+from django.contrib import admin
+admin.autodiscover()
+
+
+
+urlpatterns = patterns('',
+                url(r'^$', views.index, name='index'),
+		url(r'^services/$', views.services, name='services'),
+		url(r'^about/$', views.about, name='about'),
+		url(r'^enrollment/$', views.enrollment, name='enrollment'),
+		url(r'^contactus/$', views.contact_form, name='contact_form'),
+		url(r'^search/$', views.search, name='search'),
+
+)
